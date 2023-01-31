@@ -30,14 +30,14 @@ html {
 }
 
 body {
-  background-color: var(--bg-dark);
-  color: var(--primary-dark);
+  background-color: var(--bg-light);
+  color: var(--primary-light);
   transition: all 0.5s ease-in-out;
 }
 
-.light {
-  background-color: var(--bg-light);
-  color: var(--primary-light);
+.dark {
+  background-color: var(--bg-dark);
+  color: var(--primary-dark);
 }
 
 main {

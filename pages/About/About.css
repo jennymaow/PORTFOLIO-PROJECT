@@ -1,0 +1,34 @@
+.aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 8rem;
+    gap: 8rem;
+
+}
+
+.aboutme > img {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius:  500px 500px 500px 500px  ;
+}
+
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 500px;
+    gap: 2rem;
+
+}
+
+.introduction>h1{
+    font-size: 6rem;
+    color: linear-gradient(to right, #d5cdf0 0%, #faaca8 100%);
+}
+
+.introduction>p{
+    line-height: 24px;
+}
